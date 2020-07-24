@@ -72,7 +72,7 @@ img {
 	background: url("img/form.png") no-repeat;
 	min-height: 1000px;
 	background-position: center;
-	background-size: cover;
+	background-size: 100%;
 }
 
 .burger-footer {
@@ -160,7 +160,7 @@ img {
 		padding: 0;
 	}
 	.burger-form {
-		min-height: min-content;
+		background-size: 100%;
 	}
 	.middle {
 		height: 320px;
@@ -179,9 +179,12 @@ img {
 		border: 4px dashed #3d2514;
 	}
 	.burger-form {
-		background-size: cover;
+		background-size: 100%;
 	}
 	.middle {
 		height: auto;
+	}
+	.burger-form {
+		min-height: min-content;
 	}
 }
