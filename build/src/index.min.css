@@ -1,13 +1,9 @@
-/*Required Fonts*/
 @import url("https://fonts.googleapis.com/css?family=Alfa Slab One");
 @import url("https://fonts.googleapis.com/css?family=Bebas Neue");
-@import url("https://fonts.googleapis.com/css?family=Montserrat");
-/*=============================================================================*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
 body {
 	color: #3d2514;
 }
-/*=====================================start header styling==============================*/
-
 .navbar-expand-lg .navbar-nav .nav-link {
 	font-family: Bebas Neue !important;
 	font-size: 1.75rem !important;
@@ -24,14 +20,13 @@ body {
 	letter-spacing: 1px;
 }
 header {
-	background: url("./img/header-bg.png") no-repeat;
+	background: url(img/header-bg.png) no-repeat;
 	min-height: 500px;
 	background-size: cover;
 }
 img {
 	max-width: 100%;
 }
-
 .header-span {
 	border: 4px dashed #3d2514;
 	padding: 1rem;
@@ -39,13 +34,10 @@ img {
 }
 .header-title {
 	font-size: 5rem;
-	font-weight: bold;
+	font-weight: 700;
 	text-shadow: 6px 6px #fff;
 	font-family: Alfa Slab One;
 }
-/*========================================end header styling=================================*/
-
-/*======================================start choose section=================================*/
 .card-body {
 	font-family: Bebas Neue;
 	letter-spacing: 2px;
@@ -55,23 +47,22 @@ img {
 	font-size: 2.75rem;
 	letter-spacing: 2px;
 }
-
 .choose-text {
 	font-family: Montserrat;
 }
 .burger1 {
-	background: url("img/Burger\ Image.png ") center center no-repeat;
+	background: url("img/Burger\ Image.png") center center no-repeat;
 	width: 100%;
 	min-height: 421px;
 	border-radius: 22px;
 }
 .burger2 {
-	background: url("img/Image3.png") center no-repeat;
+	background: url(img/Image3.png) center no-repeat;
 	min-height: 195px;
 	border-radius: 22px;
 }
 .burger3 {
-	background: url("img/Image44.png") center no-repeat;
+	background: url(img/Image44.png) center no-repeat;
 	min-height: 195px;
 	border-radius: 22px;
 	width: 100%;
@@ -88,11 +79,9 @@ img {
 .btn-order {
 	background: #bf2222 !important;
 	color: #fff;
-
 	padding: 1rem 2rem;
 	font-family: Alfa Slab One;
 }
-
 .card {
 	box-shadow: 0 4px 145px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -108,7 +97,6 @@ img {
 	margin-left: 1rem;
 	margin-top: 5rem;
 }
-
 .carousel-indicators li {
 	color: grey !important;
 	background-color: grey;
@@ -120,21 +108,16 @@ img {
 	color: grey !important;
 	background-color: #ffc045;
 }
-
-/*==============================end choose section==============================*/
-
-/*==============================sart burger form================================*/
 #burger {
 	margin-top: 10%;
 }
-
 .book-subtitle {
 	font-family: Bebas Neue;
 	font-size: 1.5rem;
 	letter-spacing: 2px;
 }
 .burger-form {
-	background: url("img/form.png") no-repeat;
+	background: url(img/form.png) no-repeat;
 	min-height: 1000px;
 	background-position: center;
 	background-size: 100%;
@@ -155,16 +138,12 @@ img {
 	font-family: Alfa Slab One;
 	font-size: 1.5rem;
 }
-/*==================================end burger form======================================*/
-
-/*==================================start footer=========================================*/
 .burger-footer {
 	font-family: Montserrat;
-	background: url("img/footer.png") center center no-repeat;
+	background: url(img/footer.png) center center no-repeat;
 	background-size: cover;
 	min-height: 500px;
 }
-
 .burger-footer p {
 	font-size: 20px;
 	line-height: 3rem;
@@ -172,11 +151,6 @@ img {
 .social {
 	margin-top: 12rem;
 }
-/*=====================================end footer==============================================*/
-
-/*====================================start media query========================================*/
-
-/*small screens*/
 @media only screen and (max-width: 600px) {
 	.nav-item {
 		font-size: 1.25rem !important;
@@ -186,13 +160,13 @@ img {
 		font-size: 1rem !important;
 	}
 	header {
-		background: url("./img/header-bg.png ") center no-repeat;
+		background: url(img/header-bg.png) center no-repeat;
 		min-height: 100px;
 		background-size: cover;
 	}
 	.header-title {
 		font-size: 2.5rem;
-		font-weight: bold;
+		font-weight: 700;
 		text-shadow: 6px 6px #fff;
 		font-family: Alfa Slab One;
 	}
@@ -219,15 +193,12 @@ img {
 	.middle {
 		height: auto;
 	}
-
 	h3 {
 		font-size: medium;
 	}
-
 	.form-control {
 		padding: 1.375rem 0.75rem !important;
 	}
-
 	.card-head {
 		font-size: 2rem;
 	}
@@ -237,16 +208,15 @@ img {
 		letter-spacing: 2px;
 	}
 }
-/*medium */
 @media only screen and (max-width: 768px) {
 	header {
-		background: url("./img/header-bg.png ") no-repeat;
+		background: url(img/header-bg.png) no-repeat;
 		min-height: 300px;
 		background-size: cover;
 	}
 	.header-title {
 		font-size: 3rem;
-		font-weight: bold;
+		font-weight: 700;
 		text-shadow: 6px 6px #fff;
 		font-family: Alfa Slab One;
 	}
@@ -270,12 +240,10 @@ img {
 		margin-top: 0;
 	}
 }
-
-/*large*/
 @media only screen and (max-width: 992px) {
 	.header-title {
 		font-size: 2.5rem;
-		font-weight: bold;
+		font-weight: 700;
 		text-shadow: 6px 6px #fff;
 		font-family: Alfa Slab One;
 	}
@@ -292,5 +260,3 @@ img {
 		min-height: min-content;
 	}
 }
-
-/*===================================end media query==============================================*/
